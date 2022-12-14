@@ -1,0 +1,16 @@
+.timetable{
+    width:70%;
+    border-collapse: collapse;
+}
+.timetable th,tr,td{
+    border:2px solid black;
+    padding:3px;
+    transition: transform .2s;
+}
+
+.timetable td:hover,th:hover{
+    color:white;
+    cursor: pointer;
+    background-color: black;
+    transform: scale(1.3);
+}
